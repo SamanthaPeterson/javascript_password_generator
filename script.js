@@ -33,7 +33,19 @@ characterAmountRange.addEventListener('input', syncCharacterAmount)
 })
 
 function generatePassword(characterAmount, includeUppercase, includeNumbers, includeSymbols) {
-  String.fromCharCode(65)
+  //String.fromCharCode(65)
+  let charCodes = LOWERCASE_CHAR_CODES
+  if (includeUppercase) charCodes = charCodes.concat
+  (UPPERCASE_CHAR_CODES)
+  if (includeSymbols) charCodes = charCodes.concat(SYMBOL_CHAR_CODES)
+  if (includeNumbers) charCodes = charCodes.concat(NUMBER_CHAR_CODES)
+
+const passwordCharacters = []
+for (let i = 0; i < characterAmount; i++) {
+  const character = charCodes[Math.floor(Math.random()
+    characterAmount)]
+    passwordCharacters.push(character)
+  }
 }
 
 function arrayFromLowToHigh(low, high) {
