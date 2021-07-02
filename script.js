@@ -8,9 +8,16 @@ const characterAmountNumber = document.getElementById
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
+ form.addEventListener ('submit', e => }
+  e.preventDefault()
+  const password = generatePassword ()
+})
+
+
 function syncCharacterAmount (e) {
   const value = e.target.value
-  characterAmountNumber.value
+  characterAmountNumber.value = value
+  characterAmountRange.value = value
 }
 
 
