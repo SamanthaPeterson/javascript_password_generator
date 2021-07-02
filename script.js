@@ -5,14 +5,29 @@ const characterAmountRange = document.getElementById
 const characterAmountNumber = document.getElementById
 ('characterAmountNumber')
 
+const includeNumbers = get getElementById('includeNumbers')
+const includeSymbols = get getElementById('includeSymbols')
+const form = document.getElementById ('passwordGeneratorForm')
+
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
- form.addEventListener ('submit', e => }
+ form.addEventListener ('submit', e => {
   e.preventDefault()
+  const characterAmount = characterAmountNumber.value
+  const includeUppercase = includeUppercaseElement.checked 
+  const includeNumbers = includeNumbersElement.checked
+  const includeSymbols = includeSymbolsElement.checked 
   const password = generatePassword (characterAmount, includeUppercase, includeNumbers, includeSymbols)
 })
 
+function generatePassword(characterAmount, includeUppercase, includeNumbers, includeSymbols) {
+  String.fromCharCode(65)
+}
+
+function arrayFromLowToHigh(low, high) {
+  
+}
 
 function syncCharacterAmount (e) {
   const value = e.target.value
