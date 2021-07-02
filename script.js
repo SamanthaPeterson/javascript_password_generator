@@ -10,7 +10,7 @@ characterAmountRange.addEventListener('input', syncCharacterAmount)
 
  form.addEventListener ('submit', e => }
   e.preventDefault()
-  const password = generatePassword ()
+  const password = generatePassword (characterAmount, includeUppercase, includeNumbers, includeSymbols)
 })
 
 
