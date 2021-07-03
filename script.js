@@ -9,8 +9,8 @@ const includeNumbers = get getElementById('includeNumbers')
 const includeSymbols = get getElementById('includeSymbols')
 const form = document.getElementById ('passwordGeneratorForm')
 
-const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
-const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
+const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
+const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
 const NUMBER_CHAR_CODES = arrayFromLowToHigh (48, 57)
 const SYMBOL_CHAR_CODES = arrayFromLowToHigh (33, 47).concat(
   arrayFromLowToHigh(58, 64)
@@ -33,7 +33,6 @@ characterAmountRange.addEventListener('input', syncCharacterAmount)
 })
 
 function generatePassword(characterAmount, includeUppercase, includeNumbers, includeSymbols) {
-  //String.fromCharCode(65)
   let charCodes = LOWERCASE_CHAR_CODES
   if (includeUppercase) charCodes = charCodes.concat
   (UPPERCASE_CHAR_CODES)
@@ -43,9 +42,10 @@ function generatePassword(characterAmount, includeUppercase, includeNumbers, inc
 const passwordCharacters = []
 for (let i = 0; i < characterAmount; i++) {
   const character = charCodes[Math.floor(Math.random()
-    characterAmount)]
-    passwordCharacters.push(character)
+    charCodes.length)]
+    passwordCharacters.push(String.fromCharCode(characterCode))
   }
+  return passwordCharacters.join ('')
 }
 
 function arrayFromLowToHigh(low, high) {
@@ -64,7 +64,7 @@ function syncCharacterAmount (e) {
 
 
 
-//https://www.youtube.com/watch?v=iKo9pDKKHnc used this youtube video as refrence for Javavscript code
+//  5:26 14:50  https://www.youtube.com/watch?v=iKo9pDKKHnc used this youtube video as refrence for Javavscript code
 
 
 // Get references to the #generate element
