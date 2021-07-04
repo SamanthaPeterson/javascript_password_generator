@@ -41,7 +41,7 @@ function generatePassword(characterAmount, includeUppercase, includeNumbers, inc
 
 const passwordCharacters = []
 for (let i = 0; i < characterAmount; i++) {
-  const character = charCodes[Math.floor(Math.random()
+  const character = charCodes[Math.floor(Math.random() *
     charCodes.length)]
     passwordCharacters.push(String.fromCharCode(characterCode))
   }
