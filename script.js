@@ -5,8 +5,8 @@ const characterAmountRange = document.getElementById
 const characterAmountNumber = document.getElementById
 ('characterAmountNumber')
 
-const includeNumbers = get getElementById('includeNumbers')
-const includeSymbols = get getElementById('includeSymbols')
+const includeNumbers = get .getElementById('includeNumbers')
+const includeSymbols = get .getElementById('includeSymbols')
 const form = document.getElementById ('passwordGeneratorForm')
 
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
