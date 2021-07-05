@@ -13,6 +13,7 @@ wEBSITE LINK HERE
 /Users/samanthapeterson/Desktop/projects/javascript_password_generator/spproject3.png
  
 
+
 README
 
 IMAGE
@@ -21,7 +22,7 @@ LINK TO GIT HUB
 
 
 LINK TO WEBSITE 
-
+https://samanthapeterson.github.io/javascript_password_generator/index2.html
 
  
  Acceptance Criteria

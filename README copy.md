@@ -11,7 +11,7 @@ LINK TO GIT HUB
 
 
 LINK TO WEBSITE 
-
+https://samanthapeterson.github.io/javascript_password_generator/index2.html
 
  
  Acceptance Criteria
