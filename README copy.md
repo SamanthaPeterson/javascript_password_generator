@@ -1,3 +1,4 @@
+<img width="822" alt="Screen Shot 2021-07-04 at 8 00 09 PM" src="https://user-images.githubusercontent.com/85209802/124414885-cb013000-dd10-11eb-8251-29f7bc265a1c.png">
 # javascript_password_generator
 /Users/samanthapeterson/Desktop/projects/javascript_password_generator/spproject3.png
  
@@ -10,7 +11,7 @@ LINK TO GIT HUB
 
 
 LINK TO WEBSITE 
-
+https://samanthapeterson.github.io/javascript_password_generator/index2.html
 
  
  Acceptance Criteria
