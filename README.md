@@ -1,24 +1,18 @@
-# Password Generator Starter Code
-ImhERE
+# Password Generator 
+# javascript_password_generator
 
 <img width="822" alt="Screen Shot 2021-07-04 at 8 00 09 PM" src="https://user-images.githubusercontent.com/85209802/124414780-955c4700-dd10-11eb-96a2-c5475ccb6c66.png">
 
 /Users/samanthapeterson/Desktop/projects/javascript_password_generator/spproject3.png
 
-Readme Here
-
-wEBSITE LINK HERE
-
-# javascript_password_generator
 /Users/samanthapeterson/Desktop/projects/javascript_password_generator/spproject3.png
  
 
-
 README
 
-IMAGE
-
 LINK TO GIT HUB
+https://github.com/SamanthaPeterson
+https://github.com/SamanthaPeterson/javascript_password_generator
 
 
 LINK TO WEBSITE 
@@ -48,3 +42,7 @@ THEN my input should be validated and at least one character type should be sele
 THEN a password is generated that matches the selected criteria WHEN the password is generated 
 
 THEN the password is either displayed in an alert or written to the page
+
+
+Linkedin
+https://www.linkedin.com/in/samantha-peterson-web-developer-photographer/
