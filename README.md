@@ -1,5 +1,8 @@
 # Password Generator Starter Code
 ImhERE
+
+<img width="822" alt="Screen Shot 2021-07-04 at 8 00 09 PM" src="https://user-images.githubusercontent.com/85209802/124414780-955c4700-dd10-11eb-96a2-c5475ccb6c66.png">
+
 /Users/samanthapeterson/Desktop/projects/javascript_password_generator/spproject3.png
 
 Readme Here
