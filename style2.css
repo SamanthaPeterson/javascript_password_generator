@@ -28,6 +28,9 @@ body {
   flex-direction: column;
 }
 
+
+/* This is talking about the options listed in the middle numbers/uppercase/symbols and the sliders and check boxes */
+
 .form {
     display: grid;
     grid-template-columns: max-content max-content;
@@ -35,6 +38,9 @@ body {
     column-gap: 3rem;
     justify-content: center;  
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .title {
@@ -59,16 +65,20 @@ width: 2rem;
 .password-display {
 background-color: white;
 color: #000000;
-font-size: x-large;
+font-size: medium;
 padding:1rem;
 border: 1px solid rgb(0, 8, 31);
-height: 2rem;
-width: 350px;
-display: flex;
+height: 7rem;
+width: 550px;
 justify-content: center;
 align-items: center;
 word-break: break-all;
 border-radius: .5rem;
+display: flex;
+flex-wrap: wrap;
+align-content: stretch; 
+justify-content: space-between;
+column-span: all;
 }
 
 .form .btn {
@@ -95,10 +105,20 @@ border-radius: .5rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
+  .password-display {
+height: auto;
+width: auto;
+display: flex;
 }   
+}
 
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
   }
+  .password-display {
+height: auto;
+width: auto;
+display: flex;
+}
 }

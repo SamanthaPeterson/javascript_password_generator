@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="script.js" defer></script>
+    <script src="script.js" defer></script> <!--please load javascript at the very end so that css and html will load quicker, thats what the defer means here -->
     <link rel="stylesheet" href="style2.css" />
     <title>Password Generator</title>
   </head>
   <body>
         <div class="container">
         <h1 class = "title">Password Generator</h1>
-        <h3 class="password-display" id="passwordDisplay"></h3>
+        <span> <h3 class="password-display" id="passwordDisplay"></h3> </span>
         
+<!--for this project i am basically housing it inside of a form, then it contains a grid along with buttons, a slider, and check boxes for the participant to choose what they need -->
         <form id="passwordGeneratorForm" class="form">
             <label for="characterAmountNumber">Number of Characters</label>
              <div class="character-amount-container"> 
-                <input type="range" min="10" max="128" value="15" 
-                 id="characterAmountRange">
+                <input type="range" min="10" max="128" value="15"  
+                 id="characterAmountRange"> 
                  <input type="number-input" type="number" min="10" max="128" 
                  value="15" id="characterAmountNumber">
-            </div>
+            </div> 
 <!--Providing option of upper case -->
             <label for="includeUppercase">Include Uppercase</label>
             <input type="checkbox" id="includeUppercase">   
