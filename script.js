@@ -1,7 +1,7 @@
 // Assignment code here
 alert("Choose a new password between 10-128 characters long. Click on the check boxes and drag the slider to make your selections. Change your password every 90 days for best safety practices. Click ok to continue.");  // display string message
 
-
+// this is a prompt explaining how to use the super cool pasword generator 
 
 
 const characterAmountRange = document.getElementById
