@@ -21,7 +21,7 @@ const SYMBOL_CHAR_CODES = arrayFromLowToHigh (33, 47).concat(
 ).concat(
   arrayFromLowToHigh(123, 126)
 )
-
+// when i am asking it to concatinate if you look at the charcodes list some of the 
 characterAmountNumber.addEventListener('input', syncCharacterAmount)
 characterAmountRange.addEventListener('input', syncCharacterAmount)
 
